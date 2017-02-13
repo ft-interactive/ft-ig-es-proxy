@@ -13,4 +13,4 @@ const esEndpoint = process.env.ELASTICSEARCH_URL;
 app.use('/_plugin', authS3O, proxy(`${esEndpoint}/_plugin`));
 app.use('/', authS3ONoRedirect, proxy(esEndpoint));
 
-app.listen(3000);
+app.listen(process.env.PORT || 8080);
