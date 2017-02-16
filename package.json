@@ -13,6 +13,6 @@
   "dependencies": {
     "@financial-times/s3o-middleware": "^2.0.2",
     "express": "^4.14.1",
-    "express-http-proxy": "^0.11.0"
+    "express-request-proxy": "^2.0.0"
   }
 }
